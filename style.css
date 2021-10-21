@@ -1,6 +1,6 @@
 :root{
     --green:#22e66d; --black:rgba(31, 3, 3, 0.856);--light-color:rgba(49, 38, 38, 0.226);
-    --border:.1rem solid rgba(21, 21, 218, 0.993);--box-shadow:0 .5rem 1rem rgba(0, 12, 0, 0.836);
+    --border:.1rem solid rgba(55, 55, 58, 0.993);--box-shadow:0 .5rem 1rem rgba(0, 12, 0, 0.836);
     
     
     
@@ -47,13 +47,13 @@ section{
 }
 
 .header .logo{
-    color:var(-- green);
+    color:var(-- rgb(53, 58, 53));
     font-size: 3.3rem;
     margin-right: auto;
 }
 
 .header .logo span{
-    color:var(-- blue);
+    color:var(-- rgb(92, 92, 99));
 }
 
 .header .navbar a{
@@ -64,7 +64,7 @@ section{
 }
 
 .header .navbar a:hover{
-    color:var(--orange);
+    color:var(-- red);
 }
 
 .header .icons i{
@@ -412,10 +412,6 @@ section{
     border-radius: .5rem;
     color:var(--black);
     font-size: 1.7rem;
-}
-
-.contact form .inputBox input{
-    width:49%;
 }
 
 .footer{
